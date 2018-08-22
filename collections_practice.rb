@@ -16,6 +16,6 @@ def remove_non_strings(array)
   array.delete_if { |array| !(array.is_a? String) }
   end
   
-  def count_elements(array, value)
+  def count_elements(array)
   array.count(value)
   end
