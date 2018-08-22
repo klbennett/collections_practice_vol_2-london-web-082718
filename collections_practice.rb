@@ -18,5 +18,7 @@ def remove_non_strings(array)
   
   def count_elements(array)
   counter = 0
-  array.each do { |element| counter += 1 }
+  for x in array
+  counter += 1 
+end
   end
