@@ -18,7 +18,6 @@ def remove_non_strings(array)
   
   def count_elements(array)
   counter = 0
-  for x in array
-  counter += 1 
+  array.each_with index |
 end
   end
