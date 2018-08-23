@@ -27,4 +27,3 @@ def remove_non_strings(array)
  x[:count] = count
  end
  end
-  end
