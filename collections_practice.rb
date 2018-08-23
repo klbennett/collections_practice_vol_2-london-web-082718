@@ -18,12 +18,12 @@ def remove_non_strings(array)
   
   def count_elements(array)
  array.uniq.each do |x|
-   count = 0
+   counting = 0
  array.each do |x, y|
    if y == x
-     count += 1 
+     counting += 1 
+      x[:count] = counting
    end
  end
- x[:count] = count
  end
  end
