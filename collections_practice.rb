@@ -17,13 +17,15 @@ def remove_non_strings(array)
   end
   
   def count_elements(array)
- array.uniq.each {|x| count = 0
+ array.uniq.each do |x|
+   count = 0
  array.each do |x, y|
    if y == x
      count += 1 
    end
  end
- x[:count] = count}
+ x[:count] = count
+ end
  end
 end
   end
