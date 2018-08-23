@@ -17,8 +17,7 @@ def remove_non_strings(array)
   end
   
   def count_elements(array)
-  counter = 0
-  a = array.keys.count
-  b = array.values.count
+  array.each do |x|
+  counts[x] += 1
 end
   end
